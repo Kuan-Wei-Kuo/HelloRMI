@@ -26,7 +26,8 @@ sourceSets {
             srcDir 'src/main/resource'
         }
     }
-    test {
+/* 不上傳與Test有關的檔案
+	test {
         java {
             srcDir 'src/test/java'
         }
@@ -34,6 +35,7 @@ sourceSets {
             srcDir 'src/test/resource'
         }
     }
+*/
 }
 
 /* 包成Jar檔 */
